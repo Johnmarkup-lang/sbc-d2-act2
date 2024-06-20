@@ -3,13 +3,11 @@ from random import randint
 
 options = {0: "kulob", 1: "hayang"}
 
-p1 = None
+p1 = options[int(p1)]
 c1 = options[randint(0, 1)]
 c2 = options[randint(0, 1)]
 
 p1 = input("pick 0 kung kulob 1 kung hayang (kulob, hayang): ")
-
-p1 = options[int(p1)]
 
 print(f"P1: {p1}")
 print(f"c1: {c1}")
