@@ -16,11 +16,11 @@ print(f"c1: {c1}")
 print(f"c2: {c2}")
 
 
-if p1 == c1 == c2:
-    print("parehas tanan! utro!")
-elif p1 != c1 and p1 != c2:
+if p1 != c1 and p1 != c2:
     print("p1 ang daog!")
 elif c1 != p1 and c1 != c2:
     print("c1 ang daog!")
 elif c2 != p1 and c2 != c1: 
     print("c2 ang daog!")
+else:
+    print("parehas tanan! utro!")
