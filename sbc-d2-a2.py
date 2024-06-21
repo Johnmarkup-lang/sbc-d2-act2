@@ -2,7 +2,7 @@ from random import randint
 #humpyang game
 
 options = {0: "kulob", 1: "hayang"}
-
+p1 = None
 p1 = options[int(p1)]
 c1 = options[randint(0, 1)]
 c2 = options[randint(0, 1)]
